@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    padding: 30px;
+    background-color: beige;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.row img {
+    width: 350px;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+.pizza {
+    background-color: brown;
+    color: beige;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+
+}
